@@ -44,15 +44,21 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
+`ls`                             
+`ls -a`                          
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`           displays a list of files
+`ls -a`        includes hidden directories (which begin with a dot)
+`ls -l`        list in long format (includes all sorts of additional information)
+`ls -lh`       list in long format, but use unit suffixes
+`ls -lah`      list all directories, including hidden ones, in long format, but use unit suffixes
+`ls -t`        sort by time modified (most recent first)
+`ls -Glp`      Colorize output, list in long-form, with a slash after each file name if the file is a directory
 
 ---
 
@@ -60,7 +66,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > u  = display file access time
+> > R  = display subdirectories
+> > x  = display as rows across screen
+> > F  = flag filename
+> > c  = display timestamp
 
 ---
 
@@ -68,7 +78,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs takes a command, and any related input, and executes it, possibly some number of times:  For example, to search for .txt files, you could use 
+``` xargs find " \"*.txt" ``` ,
+or
+``` xargs -n 1 find "\*.txt"  "\*.png" ```
+
+The above code looks for all files with the extension .txt and then with the extension .png.  The option "n", and the argument "1" tell the xargs (and the function find) to except one argument per command line.  See [here](https://www.howtoforge.com/tutorial/linux-xargs-command/) for more.
 
  
 
