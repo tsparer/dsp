@@ -20,7 +20,24 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd     = show current working directory or path
+* ls      =  shows the files in the current directory
+* ls -a   =  shows hidden files
+* cd      = change directory
+* mkdir   = creates a directory
+* rmdir   = removes directory
+* touch <filename> = creates a file
+* rm      = removes file
+* mv [options] <source> <destination>  = moves a file, can also be used to rename a file (by "moving it" to a new named space in the  same directory.
+* cp <filename> <target_directory>  =  copy file : [here's nice list of commands and modifiers re: copy, remove, move etc.](https://www.hostingadvice.com/how-to/move-copy-delete-files-linux/)
+* sed – search and replace within a file
+* sort [-options] [path] – sorts contents of a file, alphabetically by default
+* chmod [permissions] [path] = change permissions  [Specific permissions settings here](https://ryanstutorials.net/linuxtutorial/permissions.php) .  Often need to use when a script isn't running.
+ * man = manual, look up commands etc. 
+ * ./  - not really a command, but remember to include ./  before running a program from the command line.
+ * Reminder on the distinction between [absolute and relative paths](https://ryanstutorials.net/linuxtutorial/navigation.php)
+ 
+ 
 
 ---
 
