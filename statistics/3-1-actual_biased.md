@@ -1,3 +1,3 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I ran the code for the distributions- and for some reason they weren't printing/showing up (and I seem to have accidentally deleted the >>code?).  I will have to try this again.  To create the biased distribution, I multiplied each element in the original distribution by >>its position (that is, e.g., for each observation of a woman with 2 children, that observation was multiplied by 2, indicating the >>responses given by each of her two children), and then superposed those two distributions.
